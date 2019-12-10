@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese')
+body {
+font-family: "Roboto Slab",serif;
+
+} 
+ 
+/*BANNER START */
+.banner{
+	background: url(../img/a.jpg) no-repeat;
+	background-size: 100% 100%;
+	 height:750px;
+
+   
+}
+.toggler-menu {
+	padding-top: 30px;
+	padding-left: 100px;
+}
+.icon {
+	color:white;
+}
+
+
+.our-story {
+    padding: 50px 0px;
+    position: relative;
+    margin-top: -25px;
+}
+.our-story:before{
+ content: "";
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ left: 0;
+ top: 0;
+ background: url(../img/b.png) no-repeat;
+ background-size: 100% 100%;
+}
+.our-story h1 {
+color: #fff;
+text-align: center;
+}
+/*description START */
+.description{
+	background-color: #282828;
+	border-bottom: 10px #c68c31 solid;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	margin-top: -30px;
+
+	
+}
+.description p{
+	color:#fff;
+	padding: 10px 10px 0px 0px;
+   
+}
+ /*footer START */
+ footer .block-title {
+  font-size: 24px;
+  letter-spacing: 1px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+footer .footer-Content {
+  background:url(../img/footer.jpg)no-repeat;
+  background-size: cover;
+  padding: 50px 0px;
+   
+}
+ 
+footer .menu {
+  padding-left: 0;
+}
+footer .menu li {
+  padding-bottom: 4px;
+  list-style: none;
+
+
+}
+footer .menu li a {
+	color: black;
+	font-size: 16px;
+   
+  padding: 0px;
+}
+footer .menu li a:hover {
+  color: black;
+}
+.widget1,.widget2 {
+	border-right: 1px solid black;
+}
+.widget1,.widget2,.widget3 {
+	margin-top: 20px;
+}
